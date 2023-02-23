@@ -117,3 +117,67 @@ fun main() {
     println("*** O resultado da divisão é:" + (n4 / n7))
     println("*** Foi um prazer ser ultilizado por vc, volte mais vezes👍 ***")
 }
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+fun main() {
+
+//Operadores Lógicos
+//
+//são usados quando queremos comparar mais de uma coisa na mesma condição
+//
+//&& -> eb (shift + 7)
+// || -> ou (shift + barra invertida)
+// 
+// TABELA VERDADE (com E e OU)
+// 
+// && - a determinado ação só acontecerá se e somente se todos as
+// condições forem verdadeiras
+// 
+// VV -> verdadeiro
+// VF -> falso
+// FV -> falso
+// FF -> falso
+// 
+// || - a derteminada ação será executada se pelo menos uma das
+// condições forem verdadeiras
+// 
+// VV -> verdadeiro
+// VF -> verdadeiro
+// FV -> verdadeiro
+// FF -> falso
+// 
+// 
+// Show do Péricles
+
+var idade = 9
+var acompanhadoDosPais = true
+   
+    
+if(idade >= 14 && acompanhadoDosPais == true){
+print("Pode entra, curte ae")
+}else{
+print("a entrada não é permitida para você")
+}
+*/
+//exercício - A seleção Brasileira está correndo risco de ser eliminada na fase de grupos
+//da Copa, o Brasil, só pode se classificar se a Alemanha perder, e se o próprio Brasil
+//ganhar, As partidas ja passaram, quero saber se o Brasil se classificou ou não
+//
+// detalhe use os operadores Lógicos
+
+var perdeu = Alemanha
+var se classificou Brasil = true
+
+if(perdeu = Alemanha && se classificou Brasil == true){
+print("Alemanha perdeu, e o Brasil se classificou")
+
+
+
+
+    
+
