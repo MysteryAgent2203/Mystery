@@ -125,7 +125,7 @@ fun main() {
 
 
 fun main() {
-
+/*
 //Operadores Lógicos
 //
 //são usados quando queremos comparar mais de uma coisa na mesma condição
@@ -162,19 +162,29 @@ if(idade >= 14 && acompanhadoDosPais == true){
 print("Pode entra, curte ae")
 }else{
 print("a entrada não é permitida para você")
-}
 */
+  
+    
+   
 //exercício - A seleção Brasileira está correndo risco de ser eliminada na fase de grupos
 //da Copa, o Brasil, só pode se classificar se a Alemanha perder, e se o próprio Brasil
 //ganhar, As partidas ja passaram, quero saber se o Brasil se classificou ou não
 //
 // detalhe use os operadores Lógicos
 
-var perdeu = Alemanha
-var se classificou Brasil = true
+var brasil = false
+var alemanha = true
+var marroco = true
 
-if(perdeu = Alemanha && se classificou Brasil == true){
-print("Alemanha perdeu, e o Brasil se classificou")
+if(!alemanha && brasil && !marroco){
+    println("Pode isso Arnaldo, Brasil classificaddo!!! Rumo ao hexal Haja Coração")
+}else{
+    println("Acaboooou, eu só queria pro meu povo")
+
+
+}
+
+}
 
 
 
