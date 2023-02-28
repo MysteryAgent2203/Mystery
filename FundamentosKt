@@ -171,7 +171,8 @@ print("a entrada não é permitida para você")
 //ganhar, As partidas ja passaram, quero saber se o Brasil se classificou ou não
 //
 // detalhe use os operadores Lógicos
-
+/*
+    
 var brasil = false
 var alemanha = true
 var marroco = true
@@ -184,6 +185,41 @@ if(!alemanha && brasil && !marroco){
 
 }
 
+}
+*/
+
+// When - Quando
+// 
+// Quando uma derterminada condição for verdadeira, outra determinada
+// ação será executada
+// 
+// Estrutura do When:
+// 
+// When(var){
+// valor -> ação a ser executada
+// outroValor -> ação
+// maisUm -> ação
+// outro -> ação
+// else -> ação
+// }
+// 
+var mes = 2
+    
+when(mes){
+    1 -> println("Alcapulco - MEX")
+    2 -> println("Paris - FRA")
+    3 -> println("Berlin - ALE")
+    4 -> println("Monaco - MON")
+    5 -> println("Pequim - CHI")
+    6 -> println("Acre - BRA")
+    7 -> println("Roma - ITÁ")
+    8 -> println("Atenas - GRE")
+    9 -> println("Madrid - ESP")
+    10 -> println("Manchester - ING")
+    11 -> println("Dubai - EUA")
+    else -> println("São Paulo - BRA")
+    
+}
 }
 
 
