@@ -228,6 +228,60 @@ when(mes){
 }
 
 
+//************************************************ ***********************************************
+
+diversão principal() {
+    
+    // Laços de Repetição
+    //
+    // enquanto - enquanto
+    // para - para..
+    // faz..enquanto faz..enquanto
+    // repete - repita
+    
+    // Laço Enquanto ☺
+    // enquanto uma determinada condição para verdadeira, outra determinada
+    // ação será executada
+    //
+    //Estrutura do While
+    //
+    // while(condição){
+    // ação
+    // }
+    /*
+    var número = 0
+    
+    while(número < 10){
+        println(número)
+        número++
+    }
+    */
+    
+    // Laço do.. Enquanto
+    //
+    // Uma determinada ação será executada, enquanto outra determinada condição para
+    // verdadeiro
+    //
+    // Estrutura do do..While
+    //
+    // fazer{
+    // ação
+    // } while(condição)
+    
+    var número = 0
+    
+    fazer{
+        println(número)
+        número++
+    }enquanto(número > 10)
+    
+    //Exercício -> O ano não é bissexto, portanto o ano possui 365 dias, precisa ser exibido no
+    //console, os números de 1 a 365, usando no mínimo uma variável, usando os Laços While e
+    //fazer enquanto
+    
+    //Divirta-se
+}
+
 
 
     
