@@ -286,3 +286,53 @@ diversão principal() {
 
 //************************************************ ***********************************************
 
+fun main() {
+
+    //Lanço de repedição
+    //Whille
+    //Do
+    //
+    //for - para...
+    //for - para cada item em uma lista/ ou qualquer tipo de coleção, será executado uma
+    //determinada ação
+    //
+    //Estrutura
+    //for (item in lista/colection){
+    //ação
+    //}
+    //
+    //for(item in 1..10){
+      //  println(item)
+        
+
+
+// Exercícios: faça a tabuada de um numero de sua escolha (sem a do e, a do 1, do 2 e do 10)
+// . observação: precisa utilizar o Laço for
+/*
+
+for(item in 54..540){
+    println(54 * 1)
+    println(54 * 2)
+    println(54 * 3)
+    println(54 * 4)
+    println(54 * 5)
+    println(54 * 6)
+    println(54 * 7)
+    println(54 * 8)
+    println(54 * 9)
+    println(54 * 10)
+    
+}
+}
+*/
+    
+//Repeat - Repita...
+//
+//uma determinada ação será repetida um determinado número de vezes
+//
+var tartaruga = 1
+repeat(10){
+println(tartaruga)
+tartaruga++
+}
+}
