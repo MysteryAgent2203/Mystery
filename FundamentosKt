@@ -397,3 +397,84 @@ fun main() {
     
       
 }
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+fun main() {
+
+/*
+var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "Tucano" to 2, "Hiena" to 3, "Mamaco" to 4)
+println(animal)
+    
+animal.put("capivara incrivel", 5)
+println(animal)
+animal.put("leopardo", 9)
+println(animal)
+animal.replace("tatu", 3)
+println(animal)
+*/
+
+
+//POO
+//
+//Progamação Orientada a Objetos
+//
+//Objetos - estados (características: nome, idade, cpf)
+//
+//Comportamentos - (andar, comer, dormir, conversar, progamar)
+//
+//Classes - Modelos que servem para construção de objetos derivados
+//
+val pessoa1 = Pessoa()
+pessoa1.nome = "Keyla"
+println(pessoa1.nome)
+pessoa1.cpf = "445.177.465.78"
+println(pessoa1.cpf)
+pessoa1.idade = 99
+println(pessoa1.idade)
+pessoa1.altura = 1.74
+println(pessoa1.altura)
+}   
+
+class Pessoa(){
+//declaração de atributos para a classe Pessoa
+var nome= ""
+var cpf= ""
+var idade= 99
+var altura= 1.74
+    
+    
+   
+}
+//exercico - faça uma ficha médica, apontando os resultados do ultimo checkup de um cliente
+//.permentido usar a mesma classe Pessoa()
+
+val cliente1 = Cliente()
+cliente1.nome = "Yago"
+println(pessoa1.nome)
+cliente1.peso= 80 kg
+println(cliente1.peso)
+cliente1.cpf = "559.754.325.44"
+println(cliente1.cpf)
+cliente1.idade = 76
+println(cliente1.idade)
+cliente1.altura = 1.55
+println(cliente1.altura)
+cliente1."data de nascimento"= 23/04/1947
+println(cliente1."data de nascimento")
+cliente1.sitomas = "febre, dor de cabeça"
+println(cliente1.sitomas)
+
+
+class Cliente(){
+//declaração de atributos para a classe Cliente
+var nome= ""
+var peso= 80
+var cpf= "559.754.325.44"
+var idade= 76
+var altura= 1.55
+var "data de nascimento"= 23/04/1947
+var sitomas= "febre, dor de cabeça"
+
+
+}
