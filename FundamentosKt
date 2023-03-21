@@ -478,3 +478,63 @@ var sitomas= "febre, dor de cabeça"
 
 
 }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+fun main() {
+    /*
+
+    var jogador1 = JogadorDeFutebol("Neymar JR", "PSG", 10, "Brasil", "Puma", "Meia-Atacante", 222.0)
+
+    println(jogador1.nome)
+    println(jogador1.time)
+    println(jogador1.numero)
+    println(jogador1.nacionalidade)
+    println(jogador1.patrocinio)
+    println(jogador1.posicao)
+    println(jogador1.preco)
+    
+    
+
+}
+class JogadorDeFutebol(var nome: String,
+                      var time: String,
+                      var numero: Int,
+                      var nacionalidade: String,
+                      var patrocinio: String,
+                      var posicao: String,
+                      var preco: Double){
+    
+//Exercício -Faça a escolação de seu time exibido nome, numero da camisa e posição
+    //no mínimo 11 jogadores
+    //permetido invertar jogadores
+    //Monitora- oii, Boa sorte :)
+    */
+    
+    var jogador1 = JogadorDeFutebol("Cristiano Ronaldo", 7, "Atacante")
+    
+    println(jogador1.nome)
+    println(jogador1.numero)
+    println(jogador1.posicao)
+    
+}
+class JogadorDeFutebol(var nome: String,
+                      var numero: Int,
+                      var posicao: String)
+
+
+var jogador2 = JogadorDeFutebol1("Rafael Leão", 15, "Ponto Esquerda")
+
+    println(jogador2.nome)
+    println(jogador2.numero)
+    println(jogador2.posicao)
+
+{
+class JogadorDeFutebol1(var nome: String,
+                      var numero: Int,
+                      var posicao: String)
+
+}
+   
+    
