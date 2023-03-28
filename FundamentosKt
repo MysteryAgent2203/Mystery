@@ -537,25 +537,5 @@ class JogadorDeFutebol1(var nome: String,
 
 }
    
-    //Métodos/funções - são um grupo de ações que representam uma determinada atividade de um
-    //determinado objeto 
-    //
-    // Estrutura de um método no Kotlin 
-    // 
-    // 
-    // 
-    // fun nomeDela (parametros - se tiver){
-    // ações
-    // } 
-    // 
-    // 
-    // var nomeDoObjeto = ClasseDele() 
-    // 
-    // nomeDoObjeto.nomeDela(parâmetros)  
-    
-    
-}
-class JogadorDeFutebol(var nome: String,
-                      var numeroDaCamisa: Int,
-                      var posicao: String){
-}
+  
+  //////////////////////////////////////////////////////////////////////////
