@@ -561,7 +561,7 @@ class JogadorDeFutebol1(var nome: String,
     
     val contaCorrente = ContaBanco(174253789400012, 0.5, "Rogers")
     contaCorrente.consultarSaldo()
-    contaCorrente.Saque(0.3, 2982)
+    contaCorrente.Saque(0.3, 2984)
     
 }
 
@@ -586,9 +586,34 @@ class ContaBanco(val  num: Long, var saldo: Double, var dono: String){
                 println("Saldo Imsuficiente saque de R$$valor não realizado") 
              }
           }else{
-              println("Senha incorreta! Tente novamente ")
+              println("Senha incorreta! Tente novamente")
               
               
        }
     }
 }
+
+// Exercicio - Deposito na conta do banco
+
+
+val contaCorrente = ContaBanco(174253789400012, 6584, "Rogers")
+contaCorrente.consultarDeposito()
+contaCorrente.Saque(0.3, 2984)
+contaCorrente.Deposito(590.0, 2984)
+contaCorrente.ConsultarSaldo
+    
+}
+
+fun Deposito(valor:  Double, senha: Int){
+    if(senha == 2984){
+        if(valor > 0){
+                saldo += valor // vai subtrair o Valor do saldo
+                println("Deposite de R$$valor realizado com sucesso")
+                 }else if(valor <= 0){
+             println("Impossivel depositar R$$valor")
+             }
+          }else{
+              println("Senha incorreta! Tente novamente")     
+        }
+    }
+         
